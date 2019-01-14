@@ -1,11 +1,515 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=5,IE=9" ><![endif]-->
 <!DOCTYPE html>
-<html>
-<head>
-<title>Теорема Виета-Общая схема</title>
-<meta charset="utf-8"/>
-</head>
-<body><div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;lightbox&quot;:false,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile modified=\&quot;2019-01-14T16:05:33.081Z\&quot; host=\&quot;www.draw.io\&quot; agent=\&quot;Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.183 Safari/537.36 Vivaldi/1.96.1147.55\&quot; etag=\&quot;1qTBgPuRK5IJQepFDIkU\&quot; version=\&quot;10.0.36\&quot; type=\&quot;google\&quot;&gt;&lt;diagram id=\&quot;8uhJotQk96m5ZdmDIB-x\&quot; name=\&quot;Общая схема\&quot;&gt;7VpZc6M4EP41vGzVpECcfjTY3qmd2Ul2XZupyZsMMibByJHlOM6vHwESCPABHh+ZrfCA5VYjiVb314dQdG/++ieBi9nfOECxAtTgVdEHCgCapQH2k1I2OcWx1ZwQkijgTCVhHL0hThRsqyhAywojxTim0aJK9HGSIJ9WaJAQvK6yTXFcnXUBQ9QgjH0YN6nfo4DOOFWzemXHZxSFMz61A+y8Yw4FM3+T5QwGeC2R9KGiewRjmrfmrx6KU+EJudxtlrePb9rYN8Nk+PDPvWfcf/+UDzbq8kjxCgQl9LRD8819gfGKy0sBVswmcSesEaYNZaApDlAGquKa2X2YUVSJ4mV3Nn1G7OXMjmAoHlfF2GyR5fBiPlKnrOI6JY7SbaAbvrfW8yqVvUvRK/0E4yhMFL3POGI0pWVv+R5sCSBbTtHO34bdDWlp6SynnnckycyRZJbLb9BoC+HtWxUjyiIClTUCgldJgNK911j3ehZRNF5AP+1dM0tntBmdx7y7UG01fVs4QbEL/acwG8PDMSasK8EJSlkpwU9IEBWge9lV9AgjS4edRnEscU6zK6XjhEp0NbsYncty4DM9R6zTJZhCGuGEr4wrKyJM8jXrPmAaWmGvDOgQniNKNuw5MUrPzMfhGGca3OTXEmKYnDaTwYLTIAepsBi6NETW4LbYwS71xn76eB75XA67dm5JIaGjKJ0q+/+IKN1wSIYrihkJEzrDIU5g/BXjhRjk+D0dZRffUz4VcxnyRPxBFDBc5u9Tdg5LquuvyEuhsQmWujJKLpJ0mCP2nskSr4iP9vAZ3DtBEqJ944HtukRQzHT1pbq4bYqRPdonBG4khgWOErqURr5LCaWKAuF2uYoaJqii/QF+E1g1pcxXUKpo8SrHa63R0puo3B2kbS1r9wU9R+fCZRQ4WGMugFuT2v3dvqTqcT6g8mRQqdstodI6F1SaH1B5cai03jNUGnZVRQ9Bpa5ZN5Z02TXgdM4PnFYn4Mxjamd30CiDpSPatSjeE2x6FZKLwHhXUNprhakHULQKuTXLrNtRDdp2m+C5QE+3D4MeUC8Jevb/D/QCuJwVGvHuEdB5zwjogJtuEMhU+kaXL+PyGOi0xEC9AWgDKanvSejH7nalCHHd8oNUBykjV1cCaUsqo+QvWtQJBlKYa20DZsY/2hv+dq0fnBLA9+AHmyBKwq+pyPTBJ3DO0LWG4daWwNW6ZI7fa8i8I+r9bpDfROmGEzg3bIuq9EHc1uxrADcwexUltffDtmZrN7XQRDMuANXiTOBDdd+l6hpXUd2e0UV1dUe7ASdV3f+WiNxOHtMzJOaD08LMvigiy5KAK3xt9jdlV4H43/ClGf2PGvurYFyuFoJTDjQkcpfqVBwlT/nyA0ghiyuyYy4wYmYJvKkP7gfr2y+f/aTvTp7DsfXNyx/bb7WqtHvczH+5CqZ1r4JZvoMm0zbmGEDkTP0rVrvYYkUkLYUJzmkyPfZX0tku8NssebWA398McRv4euWET2t7PGBdA323wOkhBK6XyfRLwm+nQtaJKlSXPGcujiiKhYsFHvNOcnJ3jgPqPFEu8tOhkh/ku7a0DFXKpx2RT6s7NlMwpPejC437T79/fY8Mad5eo6gAqsIXRYWjt6/M5Z2uWfneYOBb+MNemxP77eHfiZUgOA4entsEA3KQ2AwGjsv+S1/QpXxbxAO7vP/ZvLutNmLQLVUBAEDT32vqJR2+8+HwL+/w7ZYO/yrp1pbU/5DDr38ScDmHn38AJX1sVT+/lyu4hdu3pQKpWWE7VSL1dOu4T70fD3fe/XD85eWvPsCzNtgp14Y+EqlWnw2oegNqnS0FWN0+V2rFSOWnmrl2lx+86sOf&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
-<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
-</body>
-</html>
+<html><head>
+    <title>Flowchart Maker &amp; Online Diagram Software</title>
+    <meta name="application-name" content="draw.io"><meta name="apple-mobile-web-app-title" content="draw.io"><meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Description" content="draw.io is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams">
+    <meta name="Keywords" content="diagram, online, flow chart, flowchart maker, uml, erd">
+    <meta itemprop="name" content="draw.io - free flowchart maker and diagrams online">
+	<meta itemprop="description" content="draw.io is a free online diagramming application  and flowchart maker . You can use it to create UML, entity relationship,
+		org charts, BPMN and BPM, database schema and networks. Also possible are telecommunication network, workflow, flowcharts, maps overlays and GIS, electronic 
+		circuit and social network diagrams.">
+	<meta itemprop="image" content="https://lh4.googleusercontent.com/-cLKEldMbT_E/Tx8qXDuw6eI/AAAAAAAAAAs/Ke0pnlk8Gpg/w500-h344-k/BPMN%2Bdiagram%2Brc2f.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="msapplication-config" content="images/browserconfig.xml">
+    <meta name="mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="#d89000">
+    <script src="test_files/cbgapi.loaded_0" async=""></script><script type="text/javascript" src="test_files/api.js" gapi_processed="true"></script><script type="text/javascript">
+		/**
+		 * URL Parameters and protocol description are here:
+		 *
+		 * https://desk.draw.io/support/solutions/articles/16000042546-what-url-parameters-are-supported
+		 *
+		 * Parameters for developers:
+		 *
+		 * - dev=1: For developers only
+		 * - test=1: For developers only
+		 * - export=URL for export: For developers only
+		 * - ignoremime=1: For developers only (see DriveClient.js). Use Cmd-S to override mime.
+		 * - createindex=1: For developers only (see etc/build/README)
+		 * - filesupport=0: For developers only (see Editor.js in core)
+		 * - savesidebar=1: For developers only (see Sidebar.js)
+		 * - pages=1: For developers only (see Pages.js)
+		 * - lic=email: For developers only (see LicenseServlet.java)
+		 * --
+		 * - networkshapes=1: For testing network shapes (temporary)
+		 */
+		var urlParams = (function()
+		{
+			var result = new Object();
+			var params = window.location.search.slice(1).split('&');
+			
+			for (var i = 0; i < params.length; i++)
+			{
+				idx = params[i].indexOf('=');
+				
+				if (idx > 0)
+				{
+					result[params[i].substring(0, idx)] = params[i].substring(idx + 1);
+				}
+			}
+			
+			return result;
+		})();
+
+		// Forces CDN caches by passing URL parameters via URL hash
+		if (window.location.hash != null && window.location.hash.substring(0, 2) == '#P')
+		{
+			try
+			{
+				urlParams = JSON.parse(decodeURIComponent(window.location.hash.substring(2)));
+				
+				if (urlParams.hash != null)
+				{
+					window.location.hash = urlParams.hash;
+				}
+			}
+			catch (e)
+			{
+				// ignore
+			}
+		}
+		
+		// Redirects page if required
+		if (urlParams['dev'] != '1')
+		{
+			(function()
+			{
+				var proto = window.location.protocol;
+				
+				// Electron protocol is file:
+				if (proto != 'file:')
+				{
+					var host = window.location.host;
+		
+					// Redirects apex and rt to www
+					if (host === 'draw.io' || host === 'rt.draw.io')
+					{
+						host = 'www.draw.io';
+					}
+					
+					var href = proto + '//' + host + window.location.href.substring(
+							window.location.protocol.length +
+							window.location.host.length + 2);
+		
+					// Redirects if href changes
+					if (href != window.location.href)
+					{
+						window.location.href = href;
+					}
+				}
+			})();
+		}
+		
+		/**
+		 * Adds meta tags with application name (depends on offline URL parameter)
+		 */
+		(function()
+		{
+			function addMeta(name, content)
+			{
+				try
+				{
+					var s = document.createElement('meta');
+					s.setAttribute('name', name);
+					s.setAttribute('content', content);
+					
+				  	var t = document.getElementsByTagName('meta')[0];
+				  	t.parentNode.insertBefore(s, t);
+				}
+				catch (e)
+				{
+					// ignore
+				}
+			};
+			
+			var name = 'draw.io';
+
+			if (urlParams['offline'] === '1')
+			{
+				name += ' app';
+			}
+			
+			addMeta('apple-mobile-web-app-title', name);
+			addMeta('application-name', name);
+		})();
+	</script>
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/plgmlhohecdddhbmmkncjdmlhcmaachm">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.draw.io/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.draw.io/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.draw.io/images/favicon-16x16.png">
+	<link rel="mask-icon" href="https://www.draw.io/images/safari-pinned-tab.svg" color="#d89000">
+    <link rel="stylesheet" type="text/css" href="test_files/grapheditor.css">
+    <link rel="canonical" href="https://www.draw.io/">
+	<link rel="manifest" href="https://www.draw.io/images/manifest.json">
+	<link rel="shortcut icon" href="https://www.draw.io/favicon.ico">
+	<style type="text/css">
+		body { overflow:hidden; }
+		div.picker { z-index: 10007; }
+		.geSidebarContainer .geTitle { color:#505050; }
+		.geSidebarContainer .geTitle input {
+			font-size:8pt;
+			color:#606060;
+		}
+		.geBlock {
+			z-index:-3;
+			margin:100px;
+			margin-top:40px;
+			margin-bottom:30px;
+			padding:20px;
+		}
+		.geBlock h1, .geBlock h2 {
+			margin-top:0px;
+			padding-top:0px;
+		}
+		.geEditor ::-webkit-scrollbar {
+		    width:12px;
+		    height:12px;
+		}
+		.geEditor ::-webkit-scrollbar-track {
+			background:whiteSmoke;
+			-webkit-box-shadow:inset 0 0 4px rgba(0,0,0,0.1);
+		}
+		.geEditor ::-webkit-scrollbar-thumb {
+			background:#c5c5c5;
+		    border-radius:10px;
+			border:whiteSmoke solid 3px;
+		}
+		.geEditor ::-webkit-scrollbar-thumb:hover {
+			background:#b5b5b5;
+		}
+		.geTemplate {
+			border:1px solid transparent;
+			display:inline-block;
+			_display:inline;
+			vertical-align:top;
+			border-radius:3px;
+			overflow:hidden;
+			font-size:14pt;
+			cursor:pointer;
+			margin:5px;
+		}
+		.geFooterContainer div.geSocialFooter a {
+			display:inline;
+			padding:0px;
+		}
+		.geFooterContainer div.geSocialFooter a img {
+			margin-top:10px;
+			opacity:0.5;
+		}
+		.geFooterContainer div.geSocialFooter a img:hover {
+			opacity:1;
+		}
+		.geFooterContainer>div#geFooter>img {
+			opacity:0.5;
+			border:1px solid transparent;
+			cusor:pointer;
+			margin-top:3px;
+			margin-right:6px;
+			position:absolute;
+			right:4px;
+			top:12px;
+			padding:1px;
+			cursor:pointer;
+		}
+		.geFooterContainer>div#geFooter>img:hover {
+			opacity: 1;
+		}
+	</style>
+	<!-- Workaround for binary XHR in IE 9/10, see App.loadUrl -->
+	<!--[if (IE 9)|(IE 10)]><!-->
+		<script type="text/vbscript">
+			Function mxUtilsBinaryToArray(Binary)
+				Dim i
+				ReDim byteArray(LenB(Binary))
+				For i = 1 To LenB(Binary)
+					byteArray(i-1) = AscB(MidB(Binary, i, 1))
+				Next
+				mxUtilsBinaryToArray = byteArray
+			End Function
+		</script>
+	<!--<![endif]-->
+	<script type="text/javascript">
+		/**
+		 * Synchronously adds scripts to the page.
+		 */
+		function mxscript(src, onLoad, id, dataAppKey, noWrite)
+		{
+			if (onLoad != null || noWrite)
+			{
+				var s = document.createElement('script');
+				s.setAttribute('type', 'text/javascript');
+				s.setAttribute('src', src);
+				var r = false;
+				
+				if (id != null)
+				{
+					s.setAttribute('id', id);
+				}
+				
+				if (dataAppKey != null)
+				{
+					s.setAttribute('data-app-key', dataAppKey);
+				}
+				
+				if (onLoad != null)
+				{
+					s.onload = s.onreadystatechange = function()
+					{
+						if (!r && (!this.readyState || this.readyState == 'complete'))
+						{
+				      		r = true;
+				      		onLoad();
+						}
+				  	};
+				}
+			  	
+			  	var t = document.getElementsByTagName('script')[0];
+			  	t.parentNode.insertBefore(s, t);
+			}
+			else
+			{
+				document.write('<script src="' + src + '"' + ((id != null) ? ' id="' + id +'" ' : '') +
+					((dataAppKey != null) ? ' data-app-key="' + dataAppKey +'" ' : '') + '></scr' + 'ipt>');
+			}
+		};
+
+		/**
+		 * Asynchronously adds scripts to the page.
+		 */
+		function mxinclude(src)
+		{
+			var g = document.createElement('script'); g.type = 'text/javascript'; g.async = true; g.src = src;
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(g, s);
+		};
+		
+		// Checks for local storage
+		var isLocalStorage = false;
+		
+		try
+		{
+			isLocalStorage = urlParams['local'] != '1' && typeof(localStorage) != 'undefined';
+		}
+		catch (e)
+		{
+			// ignored
+		}
+
+		var t0 = new Date();
+
+		// Changes paths for local development environment
+		if (urlParams['dev'] == '1')
+		{
+			// Used to request grapheditor/mxgraph sources in dev mode
+			var mxDevUrl = document.location.protocol + '//devhost.jgraph.com/mxgraph2';
+			
+			if (document.location.protocol == 'file:')
+			{
+				mxDevUrl = '../../mxgraph2';
+				
+				// Forces includes for dev environment in node.js
+				mxForceIncludes = true;
+			}
+
+			var geBasePath = mxDevUrl + '/javascript/examples/grapheditor/www/js';
+			var mxBasePath = mxDevUrl + '/javascript/src';
+			
+			// Used to request draw.io sources in dev mode
+			var drawDevUrl = document.location.protocol + '//devhost.jgraph.com/drawio/src/main/webapp/';
+			
+			mxscript(drawDevUrl + 'js/diagramly/Init.js');
+			mxscript(geBasePath + '/Init.js');
+			mxscript(mxDevUrl + '/javascript/src/js/mxClient.js');
+			
+			// Adds all JS code that depends on mxClient. This indirection via Devel.js is
+			// required in some browsers to make sure mxClient.js (and the files that it
+			// loads asynchronously) are available when the code loaded in Devel.js runs.
+			mxscript(drawDevUrl + 'js/diagramly/Devel.js');
+		}
+		else
+		{
+			mxscript('js/app.min.js');
+		}
+
+		// Electron
+		if (window && window.process && window.process.type)
+		{
+			mxscript('js/diagramly/ElectronApp.js');
+		}
+		
+		// Adds basic error handling
+		window.onerror = function()
+		{
+			var status = document.getElementById('geStatus');
+			
+			if (status != null)
+			{
+				status.innerHTML = 'Page could not be loaded. Please try refreshing.';
+			}
+		};
+	</script><script src="test_files/app.js"></script><style type="text/css"></style><link rel="stylesheet" href="test_files/common.css" charset="UTF-8" type="text/css">
+<script type="text/javascript" src="test_files/MathJax.js"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style>.picker-dialog-frame{width:100%;height:100%;border:0;overflow:hidden}.picker-dialog-bg{position:absolute;top:0;left:0;background-color:#fff;z-index:1000}.picker-dialog{position:absolute;top:0;left:0;background-color:#fff;border:1px solid #acacac;width:auto;padding:0;z-index:1001;overflow:auto;-moz-box-shadow:rgba(0,0,0,.2) 0 4px 16px;-webkit-box-shadow:rgba(0,0,0,.2) 0 4px 16px;box-shadow:rgba(0,0,0,.2) 0 4px 16px}.picker-dialog-content{font-size:0;padding:0}.picker-dialog-title,.picker-dialog-buttons{display:none} </style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none; box-sizing: content-box}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax_LineBox {display: table!important}
+.MathJax_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+<body class="geEditor"><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px none; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+
+<div id="geFooter" style="visibility:hidden;overflow:hidden;margin-right:170px;height:100%;">
+	<div class="geSocialFooter" style="position:absolute;right:32px;white-space:nowrap;">
+    	<a href="https://www.youtube.com/channel/UCiTtRN9b8P4CoSfpkfgEJHA" title="draw.io on Youtube" target="_blank">
+    		<img src="test_files/glyphicons_youtube.png" alt="draw.io on Youtube" width="24" height="24" border="0">
+    	</a>
+    	&nbsp;
+    	<a href="https://www.facebook.com/pages/drawio/161015263923018" title="draw.io on Facebook" target="_blank">
+    		<img src="test_files/glyphicons_facebook.png" alt="draw.io on Facebook" width="24" height="24" border="0">
+    	</a>
+    	&nbsp;
+    	<a href="https://www.twitter.com/drawio" title="draw.io on Twitter" target="_blank">
+    		<img src="test_files/glyphicons_twitter.png" alt="draw.io on Twitter" width="24" height="24" border="0">
+    	</a>
+    	&nbsp;
+    	<a href="https://github.com/jgraph/drawio" title="draw.io on GitHub" target="_blank">
+    		<img src="test_files/glyphicons_github.png" alt="draw.io on GitHub" width="24" height="24" border="0">
+    	</a>
+	</div>
+	<table height="100%" align="center">
+		<tbody><tr>
+			<td id="geFooterItem1" style="width:280px;transition: all 1s ease;" align="center">
+				<a title="GitHub" href="https://github.com/jgraph/drawio" target="_blank">
+					<img style="margin-top:-4px;padding-right:10px;" src="test_files/glyphicons_github.png" width="24" height="24" border="0" align="absmiddle">Fork us on GitHub</a>
+			</td>
+			<td id="geFooterItem2" style="width:260px;" align="center">
+				<a id="geFooterLink1" title="Download draw.io Desktop" target="_blank" href="https://get.draw.io/">
+					<img style="margin-top:-2px;padding-right:10px;" src="test_files/drawlogo48.png" width="26" border="0" align="absmiddle">Download draw.io Desktop
+				</a>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+<script type="text/javascript">
+/**
+ * Main
+ */
+App.main();
+</script><script src="test_files/pusher.js"></script><div class="geDiagramContainer" style="right: 0px; border: medium none; left: 0px; top: 0px; bottom: 0px; touch-action: none; overflow: auto; cursor: default;" tabindex="0"><svg style="left: 0px; top: 0px; width: 100%; height: 100%; display: block; min-width: 1330px; min-height: 836px; position: absolute; background-image: none; background-color: rgb(255, 255, 255);"><defs><filter id="dropShadow"><feGaussianBlur in="SourceAlpha" stdDeviation="1.7" result="blur"></feGaussianBlur><feOffset in="blur" dx="3" dy="3" result="offsetBlur"></feOffset><feFlood flood-color="#3D4574" flood-opacity="0.4" result="offsetColor"></feFlood><feComposite in="offsetColor" in2="offsetBlur" operator="in" result="offsetBlur"></feComposite><feBlend in="SourceGraphic" in2="offsetBlur"></feBlend></filter></defs><g transformOrigin="0 0" transform="scale(1.3027375201288245,1.3027375201288245)translate(445,21)"><g></g><g><g style="visibility: visible;" transform="translate(0.5,0.5)"><rect x="195" y="540" width="150" height="80" rx="12" ry="12" fill="#ffffff" stroke="#cccccc" pointer-events="all"></rect></g><g style=""><g transform="translate(215,548)"><foreignObject style="overflow:visible;" pointer-events="all" width="110" height="65"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 111px; white-space: normal; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><b>теорема Виета</b><br><ul><li style="text-align: left">вывод</li><li style="text-align: left">применение</li></ul></div></div></foreignObject></g></g><g style="visibility: visible;" transform="translate(0.5,0.5)"><path d="M 270 430 Q 270 452 270 489 Q 270 526 270 533.63" fill="none" stroke="white" stroke-miterlimit="10" pointer-events="stroke" visibility="hidden" stroke-width="9"></path><path d="M 270 430 Q 270 452 270 489 Q 270 526 270 533.63" fill="none" stroke="#cccccc" stroke-miterlimit="10"></path><path d="M 270 538.88 L 266.5 531.88 L 270 533.63 L 273.5 531.88 Z" fill="#cccccc" stroke="#cccccc" stroke-miterlimit="10" pointer-events="all"></path></g><g style="visibility: visible;" transform="translate(0.5,0.5)"><rect x="195" y="370" width="150" height="60" rx="9" ry="9" fill="#ffffff" stroke="#cccccc" pointer-events="all"></rect></g><g style=""><g transform="translate(216,394)"><foreignObject style="overflow:visible;" pointer-events="all" width="109" height="12"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 110px; white-space: normal; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><b>раскрытие скобок<br></b></div></div></foreignObject></g></g><g style="visibility: visible;" transform="translate(0.5,0.5)"><path d="M 475 430 Q 475 452 395.83 490 Q 316.67 528 316.67 533.63" fill="none" stroke="white" stroke-miterlimit="10" pointer-events="stroke" visibility="hidden" stroke-width="9"></path><path d="M 475 430 Q 475 452 395.83 490 Q 316.67 528 316.67 533.63" fill="none" stroke="#cccccc" stroke-miterlimit="10"></path><path d="M 316.67 538.88 L 313.17 531.88 L 316.67 533.63 L 320.17 531.88 Z" fill="#cccccc" stroke="#cccccc" stroke-miterlimit="10" pointer-events="all"></path></g><g style="visibility: visible;" transform="translate(0.5,0.5)"><rect x="375" y="370" width="200" height="60" rx="9" ry="9" fill="#ffffff" stroke="#cccccc" pointer-events="all"></rect></g><g style=""><g transform="translate(394,394)"><foreignObject style="overflow:visible;" pointer-events="all" width="163" height="12"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 164px; white-space: normal; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><b>решение систем уравнений</b></div></div></foreignObject></g></g><g style="visibility: visible;" transform="translate(0.5,0.5)"><path d="M 82.5 440 Q 82.5 452 152.92 490 Q 223.33 528 223.33 533.63" fill="none" stroke="white" stroke-miterlimit="10" pointer-events="stroke" visibility="hidden" stroke-width="9"></path><path d="M 82.5 440 Q 82.5 452 152.92 490 Q 223.33 528 223.33 533.63" fill="none" stroke="#cccccc" stroke-miterlimit="10" stroke-dasharray="3 3"></path><path d="M 223.33 538.88 L 219.83 531.88 L 223.33 533.63 L 226.83 531.88 Z" fill="#cccccc" stroke="#cccccc" stroke-miterlimit="10" pointer-events="all"></path></g><g style="visibility: visible;" transform="translate(0.5,0.5)"><rect x="5" y="360" width="160" height="80" rx="12" ry="12" fill="#ffffff" stroke="#cccccc" pointer-events="all"></rect></g><g style=""><g transform="translate(-3,375)"><foreignObject style="overflow:visible;" pointer-events="all" width="156" height="51"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 157px; white-space: normal; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><b>устный счет</b><br><ul><li style="text-align: left">таблица умножения<br></li></ul></div></div></foreignObject></g></g><g style="visibility: visible;" transform="translate(0.5,0.5)"><path d="M 259 60 Q 259 72 215.38 110 Q 171.75 148 171.75 173.63" fill="none" stroke="white" stroke-miterlimit="10" pointer-events="stroke" visibility="hidden" stroke-width="9"></path><path d="M 259 60 Q 259 72 215.38 110 Q 171.75 148 171.75 173.63" fill="none" stroke="#cccccc" stroke-miterlimit="10"></path><path d="M 171.75 178.88 L 168.25 171.88 L 171.75 173.63 L 175.25 171.88 Z" fill="#cccccc" stroke="#cccccc" stroke-miterlimit="10" pointer-events="all"></path></g><g style="visibility: visible;" transform="translate(0.5,0.5)"><path d="M 294 60 Q 294 72 337.63 110 Q 381.25 148 381.25 153.63" fill="none" stroke="white" stroke-miterlimit="10" pointer-events="stroke" visibility="hidden" stroke-width="9"></path><path d="M 294 60 Q 294 72 337.63 110 Q 381.25 148 381.25 153.63" fill="none" stroke="#cccccc" stroke-miterlimit="10"></path><path d="M 381.25 158.88 L 377.75 151.88 L 381.25 153.63 L 384.75 151.88 Z" fill="#cccccc" stroke="#cccccc" stroke-miterlimit="10" pointer-events="all"></path></g><g style="visibility: visible; cursor: pointer;" transform="translate(0.5,0.5)"><rect x="236.5" y="0" width="80" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"></rect><rect x="236.5" y="0" width="80" height="60" rx="9" ry="9" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"></rect></g><g style="cursor: pointer;"><g transform="translate(250,15)"><foreignObject style="overflow:visible;" pointer-events="all" width="54" height="30"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 55px; white-space: normal; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><b>х + х = 2х<br>х*х = x<sup>2</sup><br></b></div></div></foreignObject></g></g><g style="visibility: visible;" transform="translate(0.5,0.5)"><path d="M 381.25 260 Q 381.25 272 428.13 310 Q 475 348 475 363.63" fill="none" stroke="white" stroke-miterlimit="10" pointer-events="stroke" visibility="hidden" stroke-width="9"></path><path d="M 381.25 260 Q 381.25 272 428.13 310 Q 475 348 475 363.63" fill="none" stroke="#cccccc" stroke-miterlimit="10"></path><path d="M 475 368.88 L 471.5 361.88 L 475 363.63 L 478.5 361.88 Z" fill="#cccccc" stroke="#cccccc" stroke-miterlimit="10" pointer-events="all"></path></g><g style="visibility: visible;" transform="translate(0.5,0.5)"><rect x="270.25" y="160" width="222" height="100" rx="15" ry="15" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"></rect><rect x="270.25" y="160" width="222" height="100" rx="15" ry="15" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"></rect></g><g style=""><g transform="translate(276,170)"><foreignObject style="overflow:visible;" pointer-events="all" width="210" height="80"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 211px; white-space: normal; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><b>решение уравнений</b><br><ul><li style="text-align: left">корни уравнения</li><li style="text-align: left">что значит решить уравнение</li><li style="text-align: left">действия с уравнениями</li></ul></div></div></foreignObject></g></g><g style="visibility: visible;" transform="translate(0.5,0.5)"><path d="M 171.75 240 Q 171.75 272 220.88 310 Q 270 348 270 363.63" fill="none" stroke="white" stroke-miterlimit="10" pointer-events="stroke" visibility="hidden" stroke-width="9"></path><path d="M 171.75 240 Q 171.75 272 220.88 310 Q 270 348 270 363.63" fill="none" stroke="#cccccc" stroke-miterlimit="10"></path><path d="M 270 368.88 L 266.5 361.88 L 270 363.63 L 273.5 361.88 Z" fill="#cccccc" stroke="#cccccc" stroke-miterlimit="10" pointer-events="all"></path></g><g style="visibility: visible; cursor: pointer;" transform="translate(0.5,0.5)"><rect x="103.25" y="180" width="137" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"></rect><rect x="103.25" y="180" width="137" height="60" rx="9" ry="9" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"></rect></g><g style="cursor: pointer;"><g transform="translate(121,204)"><foreignObject style="overflow:visible;" pointer-events="all" width="101" height="12"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 102px; white-space: normal; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><b>подобные члены<br></b></div></div></foreignObject></g></g></g><g></g><g></g></g></svg><div style="position: fixed; overflow: hidden; box-sizing: border-box; white-space: nowrap; background-color: rgb(0, 0, 0); padding: 10px 10px 8px; left: 50%; border-radius: 20px; transition: opacity 600ms ease-in-out 0s; bottom: 20px; transform: translate(-50%, 0px); opacity: 0; display: none;"><span style="padding-left: 0px; padding-right: 4px; cursor: pointer;" title="Previous Page"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEUAAAD////////////////////////////////////////////////////////////////////////////YSWgTAAAAE3RSTlMA7fci493c0MW8uJ6CZks4MxQHEZL6ewAAAFZJREFUOMvdkskRgDAMA4lDwg2B7b9XOlge/KKvdsa25KFb5XlRvxXC/DNBEv8IFNjBgGdDgXtFgTyhwDXiQAUHCvwa4Uv6mR6UR+1led2mVonvl+tML45qCQNQLIx7AAAAAElFTkSuQmCC" border="0"></span><div style="display: inline-block; vertical-align: top; font-family: Helvetica, Arial; margin-top: 8px; font-size: 14px; color: rgb(255, 255, 255);">1 / 4</div><span style="padding-left: 4px; padding-right: 0px; cursor: pointer;" title="Next Page"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEUAAAD////////////////////////////////////////////////////////////////////////////YSWgTAAAAE3RSTlMA7fci493c0MW8uJ6CZks4MxQHEZL6ewAAAFRJREFUOMvd0skRgCAQBVEFwQ0V7fxzNQP6wI05v6pZ/kyj1b7FNgik2gQzzLcAwiUAigHOTwDHK4A1CmB5BJANJG1hQ9qafYcqFlZP3IFc9eVGrR+iIgkDQRUXIAAAAABJRU5ErkJggg==" border="0"></span><span style="padding-left: 8px; padding-right: 8px; cursor: pointer;" title="Zoom Out (Alt+Mousewheel)"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAilBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////2N2iNAAAALXRSTlMA+vTcKMM96GRBHwXxi0YaX1HLrKWhiHpWEOnOr52Vb2xKSDcT19PKv5l/Ngdk8+viAAABJklEQVQ4y4WT2XaDMAxEvWD2nSSUNEnTJN3r//+9Sj7ILAY6L0ijC4ONYVZRpo6cByrz2YKSUGorGTpz71lPVHvT+avoB5wIkU/mxk8veceSuNoLg44IzziXjvpih72wKQnm8yc2UoiP/LAd8jQfe2Xf4Pq+2EyYIvv9wbzHHCgwxDdlBtWZOdqDfTCVgqpygQpsZaojVAVc9UjQxnAJDIBhiQv84tq3gMQCAVTxVoSibXJf8tMuc7e1TB/DCmejBNg/w1Y3c+AM5vv4w7xM59/oXamrHaLVqPQ+OTCnmMZxgz0SdL5zji0/ld6j88qGa5KIiBB6WeJGKfUKwSMKLuXgvl1TW0tm5R9UQL/efSDYsnzxD8CinhBsTTdugJatKpJwf8v+ADb8QmvW7AeAAAAAAElFTkSuQmCC" border="0"></span><span style="padding-left: 8px; padding-right: 8px; cursor: pointer;" title="Zoom In (Alt+Mousewheel)"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAilBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////2N2iNAAAALXRSTlMA+vTcKMM96GRBHwXxi0YaX1HLrKWhiHpWEOnOr52Vb2xKSDcT19PKv5l/Ngdk8+viAAABKElEQVQ4y4WT6WKCMBCENwkBwn2oFKvWqr3L+79es4EkQIDOH2d3Pxk2ABiJlB8JCXjqw4LikHVGLHTm3nM3UeVN5690GBBN0GwyV/3kkrUQR+WeKnREeKpzaXWd77CmJiXGfPIEI4V4yQ9TIW/ntlcMBe731Vts9w5TWG8F5j3mQI4hvrKpdGeYA7CX9qAcl650gVJartxRuhyHVghF8idQAIbFLvCLu28BsQEC6aKtCK6Pyb3JT7PmbmtNH8Ny56CotD/2qOs5cJbuffxgXmCib+xddVU5RNOhkvvkhTlFehzVWCOh3++MYElOhfdovaImnRYVmqDdsuhNp1QrBBE6uGC2+3ZNjGdg5B94oD+9uyVgWT79BwAxEBTWdOu3bWBVgsn/N/AHUD9IC01Oe40AAAAASUVORK5CYII=" border="0"></span><span style="padding-left: 8px; padding-right: 8px; cursor: pointer;" title="Fit"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAilBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////2N2iNAAAALXRSTlMA+vTcKMM96GRBHwXxi0YaX1HLrKWhiHpWEOnOr52Vb2xKSDcT19PKv5l/Ngdk8+viAAABIUlEQVQ4y4WT2XqDIBCFBxDc9yTWNEnTJN3r+79eGT4BEbXnaubMr8dBBaM450dCQp4LWFAascGIRd48eB4cNYE7f6XjgGiCFs5c+dml6CFN6j1V6IQIlHPpdV/usKcmJcV88gQTRXjLD9Mhb+fWq8YG9/uCmTCFjeeDeY85UGKIUGUuqzN42kv7oCouq9oHamlzVR1lVfpAIu1QVRiW+sAv7r4FpAYIZZVsRXB9TP5Dfpo1d1trCgzz1iiptH/sUbdz4CzN9+mLeXHn3+hdddd4RDegsrvzwZwSs2GLPRJidAqCLTlVwaMPqpYMWjTWBB2WRW86pVkhSKyDK2bdt2tmagZG4sBD/evdLQHLEvQfAOKRoLCmG1FAB6uKmby+gz+REDn7O5+EwQAAAABJRU5ErkJggg==" border="0"></span><span style="padding-left: 8px; padding-right: 8px; cursor: pointer; display: none;" title="Layers"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAmVBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+/v7///+bnZkkAAAAMnRSTlMABPr8ByiD88KsTi/rvJb272mjeUA1CuPe1M/KjVxYHxMP6KZ0S9nYzGRGGRaznpGIbzaGUf0AAAHESURBVDjLbZLZYoIwEEVDgLCjbKIgAlqXqt3m/z+uNwu1rcyDhjl3ktnYL7OY254C0VX3yWFZfzDrOClbbgKxi0YDHjwl4jbnRkXxJS/C1YP3DbBhD1n7Ex4uaAqdVDb3yJ/4J/3nJD2to/ngQz/DfUvzMp4JJ5sSCaF5oXmemgQDfDxzbi+Kq4sU+vNcuAmx94JtyOP2DD4Epz2asWSCz4Z/4fECxyNj9zC9xNLHcdPEO+awDKeSaUu0W4twZQiO2hYVisTR3RCtK/c1X6t4xMEpiGqXqVntEBLolkZZsKY4QtwH6jzq67dEHlJysB1aNOD3XT7n1UkasQN59L4yC2RELMDSeCRtz3yV22Ub3ozIUTknYx8JWqDdQxbUes98cR2kZtUSveF/bAhcedwEWmlxIkpZUy4XOCb6VBjjxHvbwo/1lBAHHi2JCr0NI570QhyHq/DhJoE2lLgyA4RVe6KmZ47O/3b86MCP0HWa73A8/C3SUc5Qc1ajt6fgpXJ+RGpMvDSchepZDOOQRcZVIKcK90x2D7etqtI+56+u6n3sPriO6nfphitR4+O2m3EbM7lh3me1FM1o+LMI887rN+s3/wZdTFlpNVJiOAAAAABJRU5ErkJggg==" border="0"></span><span style="padding-left: 8px; padding-right: 8px; cursor: pointer;" title="Export"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAA/BJREFUWAnFl0uIjWEYx885buPSuGwmSYwtwsY1ikKSNYNclmQnadgrZSPlsnBLSlaGBdNYKY0Vdi4L4zYzIqxGxmXG//d+7//0+uY7nWMiT/2/53mf+3v7vnNKpf9M5UbrDw8Pj4m+wzmeT1FBUS6Xf+YNox6reMONukijMXUTM3NmI75PyXcJPwRWg5kS7xysDLNmfEUxpx2rceNE50IlYjyRklcLf0prY+x4BTqfmx3ZUHQaO9ISGngYq38V/1EH+ECPa+QaK1u1kVBQirDMChiS3CTeIkwWvghtwhKBpZ8g1CO2B99FynVU/KowSRgQ3mlrBsVZ1awmQlS0SGbfXglfBPbdRGMm5O8RXg2P835pDCvzWjghTHETcLpZLHwS8kTCtBEK1SN83Egam8YxyVZqc+Do5qkwS+gT9grNwkUBG6cbsG/gs3BTuC/0ChCxq4QtwgzBMdwUZBPyN4Ftfi4sYPZHktbOSRlIuutRP5jYj0ueZp88xyYcS/zZoiLyQT1IA/cTj7eSlwnrhI+JnkQbCwo2Sx/2M7VJt17wdhVtgxvrpoFnAuSAbJQ97biZAlKxBfD9wgOhV+BgIR/AZtJ4kwD5PGSj7OmmekjWEy0oAQHAS3+KpBpzXqYK3UItopHpSRMno2N+cm7gDYnfRCcr3QBqriMHLJDkeyhFfiG5aVbK+8rhtP9M6QcIEJHX5Fp9NMAyQlYiu+OOJNlODCIXyka/P23bncTdiC7OydC1+v1Bsb+5r84DK8S3Rdmf5cRUFW3bXtWUSt1Rdk6G4SyJV2o1YId+vNUxr+x5yCJiapFtcxQzLjrxboGcMxvFJwEOKnLwjIbkx/sdSmeSaUY++SwTAxV+4DJT7RVwkbk46gNCsifIItuy0e9PF33Cb4homhN5YRyzL5q5V2VNkv98kqgoGTo3YF9CnMM5Y5rItFfvBSi9JulVXOgI+VwIntkt+SaZ6weQfcovJf7zpTfl86P/wAF7Fz18NeKwmvAWCaX0Z/uMHQr42ZxvR/Rxcw5xM+9J/CJq8w2gduDhmDgso/QrBH47dEXQ1IqczyHpIOfIRtnTtV7SwO1oKXKkU3fbToFGSDHtMWcaH1WBuVYnDbRFi99iqSMySdzxXckrazUh23KBVYGIcfNBkTxca0e4ATJ0KukGYVBgr/MnlhPOtQq/ksUfCbzh+EFCjtnCUoHfjhA/OsiTv2HcEvJMELp0VakZDliTmriTdPivxU4VmEhtPrGV+KJhO7ZKt0doFZh1fgZSBWIW2AGEHwg3BUWOnKtH+suqdw07tYMfglCrWPD5mw9qVYuniaXkT0OtWaSuo5LJTY1RBf+roF9X5+y/5qU+DAAAAABJRU5ErkJggg==" border="0"></span><span style="padding-left: 8px; padding-right: 8px; cursor: pointer;" title="Print"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAXVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9RKvvlAAAAHnRSTlMAydnl77qbMLT093H7K4Nd4Ktn082+lYt5bkklEgP44nQSAAAApUlEQVQ4y73P2Q6DIBRF0cOgbRHHzhP//5m9mBAQKjG1cT0Yc7ITAMu1LNQgUZiQ2DYoNQ0sCQb6qgHAfRx48opq3J9AZ6xuF7uOew8Ik1OsCZRS2UAC9V+D9a+QZYxNA45YFQftPtSkATOhw7dAc0vPBwKWiIOjP0JZ0yMuQJ27g36DipOUsqRAM0dR8KD1/ILHaHSE/w8DIx09E3g/BTce6rHUB5sAPKvfF+JdAAAAAElFTkSuQmCC" border="0"></span><span style="padding-left: 8px; padding-right: 8px; cursor: pointer;" title="Edit"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAgVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9d3yJTAAAAKnRSTlMA+hzi3nRQWyXzkm0h2j3u54gzEgSXjlYoTBgJxL2loGpAOS3Jt7Wxm35Ga7gRAAAA6UlEQVQ4y63Q2XaCMBSF4Q0JBasoQ5DJqbXjfv8HbCK2BZNwo/8FXHx7rcMC7lQu0iX8qU/qtvAWCpoqH8dYzS0SwaV5eK/UAf8X9pd2CWKzuF5Jrftp1owXwnIGLUaL3PYndOHf4kNNXWrXK/m7CHunk7K8LE6YtBpcknwG9GKxnroY+ylBXcx4xKyx/u/EuXi509cP9V7OO1oyHnzrdFTcqLG/4ibBA5pIMr/4xvKzuQDkVy9wW8SgBFD6HDvuzMvrZcC9QlkfMzI7w64m+b4PqBMNHB05lH21PVxJo2/fBXxV4hB38PcD+5AkI4FuETsAAAAASUVORK5CYII=" border="0"></span></div></div>
+
+
+<iframe id="apiproxyf8a3707e321d03107dba125d4d2811957d58dd560.249974073" name="apiproxyf8a3707e321d03107dba125d4d2811957d58dd560.249974073" style="width: 1px; height: 1px; position: absolute; top: -100px; display: none;" src="test_files/proxy.html" tabindex="-1" aria-hidden="true"></iframe><iframe name="oauth2relay636112812" id="oauth2relay636112812" src="test_files/postmessageRelay.html" style="width: 1px; height: 1px; position: absolute; top: -100px;" tabindex="-1" aria-hidden="true"></iframe><div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px none; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; min-width: 0px; max-width: none; padding: 0px; border: 0px none; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-size-adjust: none; font-family: MathJax_Size4, sans-serif;"></div></div><div class="mxPopupMenu" style="display: inline; z-index: 10006; left: 1335px; top: 138px; overflow: hidden auto; max-height: 921px;"><table class="mxPopupMenu"><tbody><tr class="mxPopupMenuItem"><td class="mxPopupMenuIcon"></td><td class="mxPopupMenuItem" align="left">Undo</td><td class="mxPopupMenuItem" style="padding-right: 6px; text-align: right;"><span style="color: gray;">Ctrl+Z</span></td></tr><tr><td class="mxPopupMenuIcon" style="padding: 0px;"></td><td style="padding: 0px;" colspan="2"><hr size="1"></td></tr><tr class="mxPopupMenuItem"><td class="mxPopupMenuIcon"></td><td class="mxPopupMenuItem" align="left">Clear Default Style</td><td class="mxPopupMenuItem" style="padding-right: 6px; text-align: right;"><span style="color: gray;">Ctrl+Shift+R</span></td></tr></tbody></table></div></body></html>
